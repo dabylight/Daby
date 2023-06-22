@@ -1,0 +1,61 @@
+body{
+    background: black;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    margin-left: 5%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    height: 50px;
+    width: 100%;
+    margin-left: 5%;
+}
+.div-2{
+    text-align: end;
+}
+.icon-img{
+    background-color:blue;
+    border-radius: 100%;
+}
+.link{
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    margin-left: 5%;
+}
+h3{
+    top: 0;
+    margin-top: 10px;
+}
+.image1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.image{
+    margin: 5%;
+}
+.text{
+    margin-left: 5%;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }.bottom-left1 {
+    position: absolute;
+    bottom: 8px;
+    left: 450px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }.bottom-left2 {
+    position: absolute;
+    bottom: 8px;
+    left: 900px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }

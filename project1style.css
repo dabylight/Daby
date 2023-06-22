@@ -1,0 +1,50 @@
+button{
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    font-size: xx-large;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(245, 239, 239);
+    font-size: xx-large;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 1000;
+
+}
+p{
+    color: rgb(245, 239, 239);
+    text-align: center;
+    font-size: large;
+}
+.container{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    text-align: center;
+}
+.container .box{
+    position: relative;
+    width: calc(1000px);
+    height: calc(300px);
+    background: rgb(59, 20, 20);
+    float: center;
+    margin: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.container .box .content{
+    position: relative;
+    top: 0%;
+    height: calc(100%);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
